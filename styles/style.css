@@ -1,0 +1,227 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+}
+
+.nav-wrapper {
+   background-color: #fff;
+   height: 60px;
+   width: 100%;
+   margin-top: 20px;
+   border-bottom: 1px solid #e5e5e5;
+}
+
+.navbar, .content, .footer {
+   width: 750px;
+}
+
+.navbar {
+   margin: auto;
+   height: 36px;
+}
+
+.social {
+   display: inline-block;
+   float: right;
+   margin-right: 40px;
+   margin-top: 5px;
+   height: 100%;
+}
+
+.social ul {
+   list-style-type: none;
+}
+
+.social ul li {
+   display: inline-block;
+   margin: 0px 5px;
+   -moz-transition: all 0.3s ease;
+   -webkit-transition: all 0.3s ease;
+}
+
+.social ul li img {
+   height: 100%;
+}
+
+.social ul li:hover {
+   cursor: pointer;
+   -webkit-filter: invert(100%);
+}
+
+.logo {
+   height: 100%;
+   margin-left: 45px;
+}
+
+.below-nav {
+   background-color: #f9f9f9;
+   border-bottom: 1px solid #e5e5e5;
+   min-height: 786px;
+}
+
+.content {
+   margin: auto;
+   padding: 25px 10px;
+}
+
+.footer {
+   margin: auto;
+   font-size: 12px;
+   font-weight: 400;
+   padding: 20px;
+   text-align: center;
+}
+
+h2 {
+   font-size: 20px;
+   text-align: center;
+   color: #8a8a8a;
+   font-weight: 500;
+}
+
+/* Basic Grey */
+.basic-grey {
+   margin-top: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 25px;
+    max-width: 500px;
+    background: #fff;
+    padding: 25px 15px 25px 10px;
+    font-size: 12px;
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+    border:1px solid #E4E4E4;
+}
+.basic-grey h1 {
+    font-size: 24px;
+    padding: 0px 0px 10px 40px;
+    font-weight: 400;
+    display: block;
+    border-bottom: 1px solid #E4E4E4;
+    margin: -10px -15px 30px -10px;
+    color: #888;
+}
+.basic-grey h1>span {
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+}
+.basic-grey label {
+    display: block;
+    margin: 0px;
+}
+.basic-grey label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #888;
+}
+.basic-grey input[type="text"], .basic-grey input[type="email"], .basic-grey textarea, .basic-grey select {
+    border: 1px solid #DADADA;
+    color: #888;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 70%;
+    font-size: 14px;
+    line-height:17px;
+    box-shadow: inset 0px 1px 2px #ECECEC;
+    -moz-box-shadow: inset 0px 1px 2px #ECECEC;
+    -webkit-box-shadow: inset 0px 1px 2px #ECECEC;
+    /*border-radius: 4px;*/
+}
+.basic-grey textarea{
+    padding: 5px 3px 3px 5px;
+}
+.basic-grey select {
+    background: #FFF url('../images/down-arrow.png') no-repeat right;
+    background: #FFF url('../images/down-arrow.png') no-repeat right);
+    appearance:none;
+    -webkit-appearance:none; 
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 72%;
+    height: 35px;
+    line-height: 25px;
+}
+.basic-grey textarea{
+    height:100px;
+}
+.basic-grey .button, .resend-button {
+    background: #FAB247;
+    text-decoration: none;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    box-shadow: 1px 1px 5px #B6B6B6;
+    border-radius: 3px;
+    text-shadow: 1px 1px 1px #885914;
+    cursor: pointer;
+    transition: background .3s;
+}
+.basic-grey .button:hover, .resend-button:hover {
+    background: #FF9B08;
+}
+.basic-grey table {
+   width: 100%;
+   border-spacing: 15px;
+   padding: 0 50px;
+   margin: auto;
+}
+.basic-grey table td:first-child {
+   font-weight: 500;
+}
+
+#quote {
+   display: none;
+   height: 100%;
+}
+
+#quote h2 {
+   margin-bottom: 15px;
+}
+
+#terms {
+   display: none;
+}
+
+.error {
+   display: none;
+}
+
+#form-error, #terms-error {
+   display: none;
+   text-align: center;
+}
+
+#form-error span, #terms-error span {
+   display: inline-block;
+   margin-bottom: 5px;
+   color: red;
+   font-size: 13px;
+}
+
+.start-again-link {
+   text-decoration: none;
+   transition: color .2s;
+}
+
+.start-again-link:hover {
+   color: red;
+}
+
+.box-footer {
+   display: block;
+   text-align: center;
+}
